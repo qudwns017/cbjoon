@@ -1,0 +1,24 @@
+.output {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.canvas-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+canvas {
+  width: 100%;
+  margin-bottom: -120px;
+}
+
+.bshadow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: drop-shadow(5px 5px 5px #222222);
+}

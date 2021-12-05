@@ -1,0 +1,48 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-6">
+        <h6 class="titi">About</h6>
+        <p class="text-justify">This page is a website created for practical purposes in Web Server Security Programming
+          classes. I reveal that there is no purpose of profit using this at all and that it is simply a purpose of
+          learning. There is nothing more to write about. So I'm going to write anything down. My friend calls me to
+          rest. I better get going.</p>
+      </div>
+
+      <div class="col-xs-6 col-md-3">
+        <h6>Quick Links</h6>
+        <ul class="footer-links">
+          <li *ngIf="checkLoggedIn()"><a routerLink="/profile">Profile</a></li>
+          <li *ngIf="checkLoggedIn()"><a routerLink="/dashboard">Dashboard</a></li>
+          <li *ngIf="checkLoggedIn()"><a routerLink="/list">User List</a></li>
+          <li *ngIf="checkLoggedIn()"><a routerLink="/card">Card</a></li>
+          <li *ngIf="checkLoggedIn()"><a routerLink="/convert">Exchange Rate</a></li>
+          <li *ngIf="!checkLoggedIn()"><a routerLink="/login">Login</a></li>
+          <li *ngIf="!checkLoggedIn()"><a routerLink="/register">Register</a></li>
+          <li><a routerLink="/chat">Live Chat</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-sm-6 col-xs-12">
+        <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by Choi Byeongjun.
+        </p>
+      </div>
+
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <ul class="social-icons">
+          <li><a class="facebook" href="https://www.facebook.com/profile.php?id=100006464793846" target='_blank'><i
+                class="bi bi-facebook"></i></a></li>
+          <li><a class="instagram" href="https://www.instagram.com/bottle._.6/" target='_blank'><i
+                class="bi bi-instagram"></i></a></li>
+          <li><a class="google" href="https://github.com/qudwns017" target='_blank'><i class="bi bi-github"></i></a>
+          </li>
+          <li><a class="google" href="https://www.google.com/" target='_blank'><i class="bi bi-google"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>

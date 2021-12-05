@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+.navbar {
+margin-bottom: 20px;
+}
+
+body {
+  background-color: #aaaaaa;
+}
+
+h2 {
+  text-align: center;
+  text-shadow: rgb(99, 99, 99) 3px 3px 3px;
+}
+
+p {
+  text-align: center;
+  word-break: keep-all;
+}
+
+h2:hover {
+  color: rgb(221, 221, 221);
+  transition: .5s;
+}
+
+h2:after {
+  display:block;
+  content: '';
+  border-bottom: solid 3px #ddddddb2;  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+
+h2:hover:after { transform: scaleX(1); }

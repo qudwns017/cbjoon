@@ -1,0 +1,1 @@
+.navbar{margin-bottom:20px}body{background-color:#aaa}h2{text-shadow:#636363 3px 3px 3px}h2,p{text-align:center}p{word-break:keep-all}h2:hover{color:#ddd;transition:.5s}h2:after{display:block;content:"";border-bottom:3px solid #ddddddb2;transform:scaleX(0);transition:transform .25s ease-in-out}h2:hover:after{transform:scaleX(1)}
